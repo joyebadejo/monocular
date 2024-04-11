@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Monocular by <a href="https://sniperlog.net">Sniper Log</a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An app built to read raw order data from ThinkOrSwim's AccountStatement CSVs, calculate individual trade P/L, duration, total fees and commmsions, then return in a clean, easy-to-read list.
+
+<img src="src/images/tradeList.png">
+
+
+## 💻 Technologies / Languages Used
+
+React.js, HTML/CSS, JavaScript
+
+## External Packages
+<ul>
+    <li><a href="https://www.npmjs.com/package/papaparse">Papa Parse</a></li>
+    <li><a href="https://www.npmjs.com/package/react-csv">react-csv</a></li>
+</ul>
+
+## Demo Link
+
+## Setup
+<ul>
+    <li>Download or clone the repo</li>
+    <li></li>
+</ul>
 
 ## Available Scripts
 

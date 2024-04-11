@@ -1,0 +1,204 @@
+::-webkit-scrollbar {
+    height: 3px;
+    width: 5px;
+    background-color: #111;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+  }
+
+  ::-webkit-scrollbar-thumb {
+  background-color: #777;
+  outline: 0px solid slategrey;
+  }
+
+#tradeListContainer{
+    font-size: 12px;
+    max-width: 1150px;
+    margin: auto;
+}
+
+#tradeListContainer > div {
+    width: 85%;
+    margin: auto;
+}
+
+#tradeList{
+    height: 75vh;
+    overflow-y: scroll;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.tradeRow {
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1fr .7fr .9fr 1.3fr .17fr 1.3fr 1.3fr 1.4fr 1.1fr;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.tradeRow:nth-child(even) {
+    background-color: rgba(255,255,255,0.05);
+}
+
+.tradeArrow {
+    color: #bbb;
+    font-size: .8em;
+}
+
+.tradeFeesComms{
+    font-size: .9em;
+}
+
+#tradeList .tradeDuration{
+    font-size: .92em;
+}
+
+#tradeList .tradeDirection{
+    font-size: .9em;
+}
+
+@media only screen and (max-width: 625px) {
+    .tradeRow{
+        grid-template-columns: 1fr 1.3fr 1fr .7fr .9fr 1.3fr .17fr 1.3fr 0fr 1.4fr 1.1fr;
+    }
+    .tradeDuration{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .tradeRow{
+        grid-template-columns: 1fr 1.3fr 1fr .7fr .9fr 1.3fr .17fr 1.3fr 0fr 1.4fr 0fr;
+    }
+    .tradeFeesComms{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tradeDate {
+        grid-area: tDate;
+    }
+    .tradeTime {
+        grid-area: tTime;
+    }
+    .tradeSymbol {
+        grid-area: tSymb;
+    }
+    .tradeDirection {
+        grid-area: tDir;
+    }
+    .tradeShares {
+        grid-area: tShr;
+    }
+    .tradeEntry {
+        grid-area: tEnt;
+    }
+    .tradeArrow {
+        grid-area: tArr;
+        width: 4vh;
+    }
+    .tradeExit {
+        grid-area: tExit;
+    }
+    .tradeDuration {
+        grid-area: tDur;
+        width: 0vh;
+    }
+    .tradePnL {
+        grid-area: tPnL;
+    }
+    .tradeFeesComms {
+        grid-area: tFnC;
+        width: 0vh;
+    }
+    
+    #tradeListContainer {
+        width: 100vw;
+    }
+    .tradeRow {
+        font-size: 13px;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2px;
+        grid-template-areas: "tDate  tDate  tTime  tTime  tSymb  tSymb  tSymb  tPnL   tPnL   tPnL   tPnL  tDur"
+                             "tDir   tDir   tShr   tShr   tEnt   tEnt   tEnt   tArr   tExit  tExit  tExit tFnC";
+    }
+
+    #tradeListContainer .headerRow{
+        padding: 4px 0;
+    }
+
+}
+
+.tradeRow div {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.headerRow{
+    padding: 12px 0px;
+    font-size: .95em;
+    border-bottom: 1px solid #2B2B2B;
+    box-shadow: 0px 5px 5px -5px #000;
+    position: relative;
+    z-index: 99;
+}
+
+.headerRow, .headerRow div{
+    background-color: #000;
+}
+
+
+
+.win{
+    background-color: #26843f;
+    font-weight: 700;
+}
+
+.loss{
+    background-color: #b83333;
+    font-weight: 700;
+}
+
+
+.tradeTime, .tradeDate{
+    background-color: #132a3e
+}
+
+#tradeList .tradeSymbol{
+    font-weight: 900;
+}
+
+ #tradeList #noTrades {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#export{
+    padding-top: 10px;
+}
+
+#export span{
+    background-color: #2e6ab3;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 6px;
+    width: 85px;
+    font-size: 13px;
+    padding: 4px 16px;
+
+
+}
+
+#export a{
+    text-decoration: none;
+}

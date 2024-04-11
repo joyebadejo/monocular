@@ -1,38 +1,117 @@
 .App {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #0c1c2b;
+  background-image: linear-gradient(#0c1c2b, #020a10);
+  color: #fff;
+}
+
+.logoText {
+  font-family: 'Jockey One', sans serif;
+  font-size: 35px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logoText span {
+  font-size: .4em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vertCenter {
+  padding-top: 35vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#dropbox {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
+  border: 0px dashed #fff;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.3);
+  padding: 20px 0px;
+  width: 250px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: auto;
+  margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+#dropbox h5 {
+  font-size: 12px;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 8px 2px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#dropbox input {
+  display: flex;
+  margin: 0px;
+  margin: auto;
+  padding: 0;
+  width: 85px;
+}
+
+#buttonRow button{
+  margin: 0px 2px;
+}
+
+input[type=file]::file-selector-button, #dropbox #goButton {
+  background-color: #2e6ab3;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  width: 85px;
+  font-size: 13px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+#resetButtonContainer {
+  display: flex;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: right;
+  padding-right: 7.8vw;
+  max-width: 950px;
+}
+
+@media only screen and (min-width: 1050px) {
+  
+  #resetButtonContainer {
+    
+    padding-left: 120px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+#resetButton {
+  background-color: #740000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  width: 85px;
+  font-size: 13px;
+  padding: 4px;
+  cursor: pointer;
+  margin-top: -22px;
+}
+
+#guidelines {
+  display: flex;
+  margin: auto;
+  letter-spacing: 1px;
+  width: 210px;
+  font-size: 12px;
+  padding: 20px 0 0;
+  color: #eee;
+}
+
+#guidelines ul {
+  margin: 0;
+  padding: 0;
+}
+
+#guidelines li {
+  margin: 0px 0px 4px;
+  padding: 0;
+  font-style: italic;
 }

@@ -1,0 +1,95 @@
+﻿This document was exported from the paperMoney® platform which provides a simulated trading environment. All data contained herein is for educational and entertainment purposes only. TD Ameritrade its subsidiaries and/or affiliates are not responsible for the accuracy of any of these exported data.
+
+Account Statement for D-17807181 (margin) since 10/31/23 through 10/31/23
+
+Cash Balance
+DATE,TIME,TYPE,REF #,DESCRIPTION,Misc Fees,Commissions & Fees,AMOUNT,BALANCE
+10/31/23,22:00:00,BAL,,Cash balance at the start of business day 01.11 CST,,,,"4,574.67"
+11/1/23,07:36:23,TRD,1748380495,KEY: Shift B BOT +5 TSLA @199.71,,,-998.55,"3,576.12"
+11/1/23,07:36:33,TRD,1748382509,KEY: Shift S SOLD -5 TSLA @199.82,-0.02,,999.10,"4,575.20"
+11/1/23,07:37:00,TRD,1748382542,KEY: Shift S SOLD -1 TSLA @199.84,-0.01,,199.84,"4,775.03"
+11/1/23,07:37:24,TRD,1748383609,KEY: Shift B BOT +2 SPY @421.44,,,-842.88,"3,932.15"
+11/1/23,07:37:36,TRD,1748383629,KEY: Shift S SOLD -1 SPY @421.44,-0.01,,421.44,"4,353.58"
+11/1/23,07:37:52,TRD,1748383643,KEY: Shift S SOLD -1 SPY @421.50,-0.01,,421.50,"4,775.07"
+11/1/23,07:38:08,TRD,1748383676,BOT +1 TSLA @199.76,,,-199.76,"4,575.31"
+11/1/23,07:38:17,TRD,1748383686,KEY: Shift S SOLD -1 TSLA @199.54,-0.01,,199.54,"4,774.84"
+11/1/23,07:38:29,TRD,1748385425,KEY: Shift B BOT +1 SPY @421.43,,,-421.43,"4,353.41"
+,,,,TOTAL,($0.06),,($221.20),"$4,353.41"
+
+Futures Statements
+Trade Date,Exec Date,Exec Time,Type,Ref #,Description,Misc Fees,Commissions & Fees,Amount,Balance
+
+Forex Statements
+,Date,Time,Type,Ref #,Description,Commissions & Fees,Amount,Amount(USD),Balance
+,10/31/23,22:00:00,BAL,--,Cash balance at the start of the business day 01.11 CST.,--,--,--,"$10,000.00"
+
+ 
+"Total Cash $4,353.41"
+
+
+Account Order History
+Notes,,Time Placed,Spread,Side,Qty,Pos Effect,Symbol,Exp,Strike,Type,PRICE,,TIF,Status
+,,11/1/23 07:38:26,STOCK,BUY,+1,TO OPEN,SPY,,,ETF,~,MKT,DAY,FILLED
+,,11/1/23 07:38:14,STOCK,SELL,-1,TO OPEN,TSLA,,,STOCK,~,MKT,DAY,FILLED
+,,11/1/23 07:38:05,STOCK,BUY,+1,TO CLOSE,TSLA,,,STOCK,~,MKT,DAY,FILLED
+,,,RE #1748383674,,,,,,,,,,,
+,,11/1/23 07:38:05,STOCK,BUY,100%,TO CLOSE,TSLA,,,STOCK,~,MKT,DAY,TRIGGERED
+,,11/1/23 07:37:47,STOCK,SELL,-1,TO CLOSE,SPY,,,ETF,~,MKT,DAY,FILLED
+,,11/1/23 07:37:32,STOCK,SELL,-1,TO CLOSE,SPY,,,ETF,~,MKT,DAY,FILLED
+,,11/1/23 07:37:17,STOCK,BUY,+2,TO OPEN,SPY,,,ETF,~,MKT,DAY,FILLED
+,,11/1/23 07:36:50,STOCK,SELL,-1,TO OPEN,TSLA,,,STOCK,~,MKT,DAY,FILLED
+,,11/1/23 07:36:28,STOCK,SELL,-5,TO CLOSE,TSLA,,,STOCK,~,MKT,DAY,FILLED
+,,11/1/23 07:36:19,STOCK,BUY,+5,TO OPEN,TSLA,,,STOCK,~,MKT,DAY,FILLED
+,,11/1/23 05:35:42,STOCK,BUY,+5,TO OPEN,TSLA,,,STOCK,205.30,LMT,EXT,CANCELED
+,,,RE #1748233591,,,,,,,,,,,
+,,11/1/23 05:35:40,STOCK,BUY,+5,TO OPEN,TSLA,,,STOCK,203.30,LMT,EXT,CANCELED
+,,,RE #1748233591,,,,,,,,,,,
+,,11/1/23 05:35:33,STOCK,BUY,+5,TO OPEN,TSLA,,,STOCK,204.30,LMT,EXT,CANCELED
+,,11/1/23 05:35:29,STOCK,BUY,+5,TO OPEN,TSLA,,,STOCK,205.09,LMT,GTC,CANCELED
+,,11/1/23 05:35:14,STOCK,BUY,+5,TO OPEN,TSLA,,,STOCK,205.09,LMT,GTC_EXT,CANCELED
+,,11/1/23 05:35:10,STOCK,BUY,+5,TO OPEN,TSLA,,,STOCK,205.09,LMT,DAY,CANCELED
+
+Account Trade History
+,Exec Time,Spread,Side,Qty,Pos Effect,Symbol,Exp,Strike,Type,Price,Net Price,Order Type
+,11/1/23 07:38:29,STOCK,BUY,+1,TO OPEN,SPY,,,ETF,421.43,421.43,MKT
+,11/1/23 07:38:17,STOCK,SELL,-1,TO OPEN,TSLA,,,STOCK,199.54,199.54,MKT
+,11/1/23 07:38:08,STOCK,BUY,+1,TO CLOSE,TSLA,,,STOCK,199.76,199.76,MKT
+,11/1/23 07:37:52,STOCK,SELL,-1,TO CLOSE,SPY,,,ETF,421.50,421.50,MKT
+,11/1/23 07:37:36,STOCK,SELL,-1,TO CLOSE,SPY,,,ETF,421.44,421.44,MKT
+,11/1/23 07:37:24,STOCK,BUY,+2,TO OPEN,SPY,,,ETF,421.44,421.44,MKT
+,11/1/23 07:37:00,STOCK,SELL,-1,TO OPEN,TSLA,,,STOCK,199.84,199.84,MKT
+,11/1/23 07:36:33,STOCK,SELL,-5,TO CLOSE,TSLA,,,STOCK,199.82,199.82,MKT
+,11/1/23 07:36:23,STOCK,BUY,+5,TO OPEN,TSLA,,,STOCK,199.71,199.71,MKT
+
+Equities
+Symbol,Description,Qty,Trade Price
+TSLA,TESLA INC COM,-1,199.54
+SPY,SPDR S&P500 ETF TRUST TR UNIT ETF,+1,421.43
+,OVERALL TOTALS,,
+
+Profits and Losses
+Symbol,Description,P/L Open,P/L %,P/L Day
+AAL,AMERICAN AIRLINES GROUP INC COM,$0.00,0.00%,$0.00
+SPRC,SCISPARC LTD COM,$0.00,0.00%,$0.00
+SPY,SPDR S&P500 ETF TRUST TR UNIT ETF,$1.23,+0.29%,$1.29
+TSLA,TESLA INC COM,($6.12),-3.07%,($5.49)
+VYNE,VYNE THERAPEUTICS INC COM,$0.00,0.00%,$0.00
+,OVERALL TOTALS,($4.89),-0.79%,($4.20)
+
+Forex Account Summary
+Forex Cash,"$10,000.00"
+Forex Unrealized P/L,$0.00
+Forex Floating P/L,$0.00
+Forex Equity,"$10,000.00"
+Forex Margin,$0.00
+Forex Buying Power,"$10,000.00"
+Forex Risk Level,0.00%
+Forex Commissions YTD,$0.00
+
+Account Summary
+Net Liquidating Value,"$4,570.41"
+Stock Buying Power,"$8,512.50"
+Option Buying Power,"$4,256.25"
+Equity Commissions & Fees YTD,$0.00
+Futures Commissions & Fees YTD,$0.00
+Total Commissions & Fees YTD,$0.00
