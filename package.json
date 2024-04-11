@@ -2,12 +2,14 @@
   "name": "monocular",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/joyebadejo/monocular.git",
   "dependencies": {
     "@expo-google-fonts/jockey-one": "^0.2.3",
     "@fontsource/jockey-one": "^5.0.19",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.1.1",
     "papaparse": "^5.4.1",
     "react": "^18.2.0",
     "react-csv": "^2.2.2",
@@ -16,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
